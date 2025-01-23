@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Visual Art Gallery</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+<body>
+   <!-- Home -->
+    <nav class="navbar">
+        <span class="logo">Visual <span class="art">Art</span> Gallery</span>
+        <div class="nav-links">
+            <a class="header d-none d-md-block" href="#">Home</a>
+            <a class="header d-none d-md-block" href="#About Us">About Us</a>
+            <a class="header d-none d-md-block" href="#Gallery">Gallery</a>
+            <a class="header d-none d-md-block" href="#Artists">Artists</a>
+            <a class="header d-none d-md-block" href="#Events">Events</a>
+            <a class="header d-none d-md-block" href="#Contact Us">Contact Us</a>
+        </div>
+        <i class="bi bi-list d-md-none hamburger"></i>
+    </nav>
+  <section>
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+        <!-- Carousel Indicators -->
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        
+        <!-- Carousel Inner (Slides) -->
+        <div class="carousel-inner">
+          <!-- First Slide -->
+          <div class="carousel-item active">
+            <img src="british-library-ayNT6hDhiBw-unsplash.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-sm-block">
+              <h5>Roses in a vase</h5>
+              <p>Caption on roses.</p>
+            </div>
+          </div>
+          
+          <!-- Second Slide -->
+          <div class="carousel-item">
+            <img src="birmingham-museums-trust-HEEvYhNzpEo-unsplash.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption  d-sm-block">
+              <h5>A sightseeing day.</h5>
+              <p>Caption on sightseeing day.</p>
+            </div>
+          </div>
+          
+          <!-- Third Slide -->
+          <div class="carousel-item">
+            <img src="british-library-gUDNK8NqYHk-unsplash.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-sm-block">
+              <h5>Greenery</h5>
+              <p>Caption on Greenery.</p>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Carousel Controls (Previous & Next) -->
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+</section>
+<hr>
+
+<!-- About -->
+<section>
+  <div class="about" id="About Us">
+    <div class="container-fluid">
+      <h1>About Us</h1>
+      <div class="container text-center">
+        <div class="row aboutrow ">
+          <!-- Full-height column (1 column, 1 row) -->
+          <div class="col-sm-6 aboutcol" id="abcol1">
+            <p >
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores amet illo enim laudantium 
+              similique quos laboriosam exercitationem doloribus. Debitis ducimus quo cumque mollitia 
+              pariatur veritatis quis eaque atque dolorem impedit! Lorem ipsum dolor sit amet consectetur adipisicing elit.<span class="d-md-none">....</span><span class="d-none d-md-inline"> Dolores amet illo enim laudantium 
+              similique quos laboriosam exercitationem doloribus. Debitis ducimus quo cumque mollitia 
+              pariatur veritatis quis eaque atque dolorem impedit!</span>
+            </p>
+          </div>
+          <!-- Two smaller rows stacked vertically beside the first column -->
+          <div class="col-sm-6">
+            <!-- First smaller row -->
+            <div class="row aboutrow">
+              <div class="col aboutcol" id="abcol2">
+                <img src="geordanna-cordero-5NE6mX0WVfQ-unsplash.jpg" alt="" class="img-fluid">
+              </div>
+            </div>
+            <!-- Second smaller row -->
+            <div class="row aboutrow">
+              <div class="col aboutcol" id="abcol3">
+                <img src="henrik-donnestad-t2Sai-AqIpI-unsplash.jpg" alt="" class="img-fluid">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+  <!-- Gallery --> 
+  <section class="secgallery">
+    <div class="gallery" id="Gallery">
+      <h1>Gallery</h1>
+      <div class="cards">
+        <!-- Card 1 -->
+        <div class="card">
+          <img src="birmingham-museums-trust-SAQl58G-RYs-unsplash.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          </div>
+        </div>
+        <!-- Card 2 -->
+        <div class="card">
+          <img src="birmingham-museums-trust-hcXPIKsC2PM-unsplash.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          </div>
+        </div>
+        <!-- Card 3 -->
+        <div class="card">
+          <img src="birmingham-museums-trust-8wcoY3wcbL0-unsplash.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          </div>
+        </div>
+        <!-- Card 4 -->
+        <div class="card">
+          <img src="birmingham-museums-trust-5ruS8plfbvM-unsplash.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          </div>
+        </div>
+        <!-- Card 5 -->
+        <div class="card">
+          <img src="birmingham-museums-trust-JZdPBgU6Nik-unsplash.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          </div>
+        </div>
+        <!-- Card 6 -->
+        <div class="card">
+          <img src="boston-public-library-YoK5pBcSY8s-unsplash.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          </div>
+        </div>
+        <!-- Card 7 -->
+        <div class="card">
+          <img src="birmingham-museums-trust-sJr8LDyEf7k-unsplash.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          </div>
+        </div>
+        <!-- Card 8 -->
+        <div class="card">
+          <img src="birmingham-museums-trust-_sn71oyTN4o-unsplash.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--Artists-->
+  <section>
+    <div class="container-fluid artists" id="Artists">
+      <h1>Artists</h1>
+      <div class="container py-5 artistborder">
+        <div class="row artistrow">
+          <!-- Artist Block 1 -->
+          <div class="col">
+            <div class="artist-block">
+              <div class="artist-content">
+                <div class="artist-front">
+                  <img src="emma-harrisova-1xz4fi_y6iw-unsplash.jpg" alt="Artist 1">
+                </div>
+                <div class="artist-back">
+                  <p>Description about Artist 1. Their achievements and works go here.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Artist Block 2 -->
+          <div class="col">
+            <div class="artist-block">
+              <div class="artist-content">
+                <div class="artist-front">
+                  <img src="daniel-plainview-WMTzkk-E6eE-unsplash.jpg" alt="Artist 2">
+                </div>
+                <div class="artist-back">
+                  <p>Description about Artist 2. Their achievements and works go here.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Artist Block 3 -->
+          <div class="col">
+            <div class="artist-block">
+              <div class="artist-content">
+                <div class="artist-front">
+                  <img src="frankie-cordoba-DvaOIjkrQTI-unsplash.jpg" alt="Artist 3">
+                </div>
+                <div class="artist-back">
+                  <p>Description about Artist 3. Their achievements and works go here.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Artist Block 4 -->
+          <div class="col">
+            <div class="artist-block">
+              <div class="artist-content">
+                <div class="artist-front">
+                  <img src="gabriella-clare-marino-EG0FHt8sUTY-unsplash.jpg" alt="Artist 4">
+                </div>
+                <div class="artist-back">
+                  <p>Description about Artist 4. Their achievements and works go here.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Artist Block 5 -->
+          <div class="col">
+            <div class="artist-block">
+              <div class="artist-content">
+                <div class="artist-front">
+                  <img src="brian-gordillo-mO1r2B8wFrs-unsplash.jpg" alt="Artist 5">
+                </div>
+                <div class="artist-back">
+                  <p>Description about Artist 5. Their achievements and works go here.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Artist Block 6 -->
+          <div class="col">
+            <div class="artist-block">
+              <div class="artist-content">
+                <div class="artist-front">
+                  <img src="tetiana-shyshkina-yn7R3DLA-ik-unsplash.jpg" alt="Artist 6">
+                </div>
+                <div class="artist-back">
+                  <p>Description about Artist 6. Their achievements and works go here.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <!--Events-->
+  <section>
+    <div class="container-fluid p-10 events" id="Events">
+    <h1>Events</h1>
+      <div class="container text-center">
+        <div class="row " >
+          <div class="col-6 py-5" style="border: 2px solid black; ">
+            <h2 style="text-decoration: underline; background-color: white;">Upcoming events</h2>
+            <div class="d-grid gap-6 col-6 mx-10 px-10 " >
+              <p><button class="btn btnevent" type="button">1.Event Details</button></p>
+              <p><button class="btn btnevent" type="button">2.Event Details</button></p>
+              <p><button class="btn btnevent" type="button">3.Event Details</button></p>
+              <p><button class="btn btnevent" type="button">4.Event Details</button></p>
+            </div>
+          </div>
+          <div class="col-6 py-5" style="border: 2px solid black;">
+            <h2 style="text-decoration: underline;background-color: white;">Past events</h2>
+            <div class="d-grid gap-6 col-6 mx-10 px-10 " >
+              <p ><button class="btn btnevent" type="button">1.Event Details</button></p>
+              <p><button class="btn btnevent" type="button">2.Event Details</button></p>
+              <p><button class="btn btnevent" type="button">3.Event Details</button></p>
+              <p><button class="btn btnevent" type="button">4.Event Details</button></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--Contact Us-->
+  <section>
+    <div class="container-fluid contact" id="Contact Us">
+      <h1>Contact Us</h1>
+      <p style="font-size: 150% ; text-align: center; font-style: italic;"> "We’re here to help with inquiries, collaborations, and event bookings."</p>
+      <p class="operate">Operating Hours: 9am to 9pm<br>Days: Monday to Friday<br>Address: 123 Art Lane, Downtown District, New York, NY 10001</p>
+      
+      <div class="form-container">
+        <form>
+            <div class="mb-3">
+                <label for="name" class="form-label">Name <span style="color: red;">*</span></label>
+                <input type="text" class="form-control" id="name" placeholder="Enter your name" required>
+            </div>
+            <div class="mb-3">
+                <label for="email" class="form-label">Email Address <span style="color: red;">*</span></label>
+                <input type="email" class="form-control" id="email" placeholder="Enter your email" required>
+            </div>
+            <div class="mb-3">
+                <label for="subject" class="form-label">Subject</label>
+                <input type="text" class="form-control" id="subject" placeholder="Enter the subject">
+            </div>
+            <div class="mb-3">
+                <label for="message" class="form-label">Message</label>
+                <textarea class="form-control" id="message" rows="4" placeholder="Enter your message"></textarea>
+            </div>
+            <div class="mb-3">
+                <label for="phone" class="form-label">Phone Number</label>
+                <input type="tel" class="form-control" id="phone" placeholder="Enter your phone number">
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+    </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+        <!-- Social Media Icons -->
+        <div class="social-icons">
+            <a href="https://www.instagram.com" target="_blank" class="text-white">
+                <i class="bi bi-instagram"></i>
+            </a>
+            <a href="mailto:example@gmail.com" class="text-white">
+                <i class="bi bi-envelope"></i>
+            </a>
+            <a href="tel:+1234567890" class="text-white">
+                <i class="bi bi-telephone"></i>
+            </a>
+            <a href="https://www.facebook.com" target="_blank" class="text-white">
+                <i class="bi bi-facebook"></i>
+            </a>
+            <a href="https://twitter.com" target="_blank" class="text-white">
+                <i class="bi bi-twitter"></i>
+            </a>
+        </div>
+
+        <!-- Contact Information and Address -->
+        <div class="contact-info">
+            <p><i class="bi bi-geo-alt"></i> 123 Art Lane, Downtown District, New York, NY 10001</p>
+            <p><i class="bi bi-clock"></i> Mon - Fri:  9am to 9pm</p>
+            <p><i class="bi bi-envelope"></i> example@gmail.com</p>
+            <p><i class="bi bi-telephone"></i> +123 456 7890</p>
+            <p><i class="bi bi-globe"></i> www.example.com</p>
+        </div>
+    </div>
+</footer>
+  
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>    
+<script src="./js/bootstrap.min.js"></script>
+</body>
+</html>
